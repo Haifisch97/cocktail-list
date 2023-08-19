@@ -151,8 +151,8 @@ function createCocktailCard(cocktailData) {
       <div class="card-body">
           <h3 class="text-enter">${name}</h3>
           <div class="row">
-              <div class="col-12">
-                  <img class="w-100 rounded-1 image-div"
+              <div class="col-12 image-div">
+                  <img class="w-100 rounded-1"
                       src="${img}"
                       alt="">
               </div>
