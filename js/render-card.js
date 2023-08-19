@@ -152,7 +152,7 @@ function createCocktailCard(cocktailData) {
           <h3 class="text-enter">${name}</h3>
           <div class="row">
               <div class="col-12">
-                  <img class="w-100 rounded-1"
+                  <img class="w-100 rounded-1 image-div"
                       src="${img}"
                       alt="">
               </div>
