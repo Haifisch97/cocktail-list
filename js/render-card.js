@@ -145,7 +145,7 @@ function createCocktailCard(cocktailData) {
     const { name, img, discription, ingredients } = cocktailData;
 
     const card = document.createElement('div');
-    card.classList.add('col-12', 'col-md-6', 'col-xl-4');
+    card.classList.add('col-12', 'col-md-6', 'col-xl-4', 'd-flex');
     const innerHTML = `
   <div class="card">
       <div class="card-body">
